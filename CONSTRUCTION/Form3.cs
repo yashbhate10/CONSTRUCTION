@@ -21,5 +21,12 @@ namespace CONSTRUCTION
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string a = textBox1.Text;
+            a = "Nigga";
+            textBox1.Text= a;
+        }
     }
 }
