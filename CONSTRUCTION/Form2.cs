@@ -50,5 +50,22 @@ namespace CONSTRUCTION
             aa.Show();
             this.Close();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 aa = new Form3();
+            aa.Show();
+            this.Close();
+        }
     }
 }
