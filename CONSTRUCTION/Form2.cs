@@ -60,5 +60,12 @@ namespace CONSTRUCTION
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 aa = new Form3();
+            aa.Show();
+            this.Close();
+        }
     }
 }

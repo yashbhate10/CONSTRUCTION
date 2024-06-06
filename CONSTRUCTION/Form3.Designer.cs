@@ -37,11 +37,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(303, 270);
+            this.button1.Location = new System.Drawing.Point(176, 203);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 111);
+            this.button1.Size = new System.Drawing.Size(172, 60);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Share data";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
@@ -64,24 +64,26 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(94, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(41, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "label1";
+            this.label2.Text = "name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(94, 145);
+            this.label3.Location = new System.Drawing.Point(97, 142);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
+            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label3.Size = new System.Drawing.Size(45, 16);
             this.label3.TabIndex = 4;
-            this.label3.Text = "label1";
+            this.label3.Text = "hobby";
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(591, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
